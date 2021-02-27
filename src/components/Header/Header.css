@@ -1,0 +1,26 @@
+.header img{
+    height: 80px;
+}
+.header{
+    text-align: center;
+}
+.header nav{
+    background-color: black;
+    line-height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px 0px 20px;
+    padding: 5px;
+}
+nav a:nth-child(1){
+    margin-left: 100px;
+}
+nav a:hover{
+    background-color:gray;
+    box-shadow: 2px 2px 5px rgb(29, 29, 29);
+}
